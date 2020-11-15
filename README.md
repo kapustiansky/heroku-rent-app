@@ -1,4 +1,4 @@
-# Too start
+# To start
 npm install express, nodemon, mongoose, cors
 npm run server
 run index.html in your browser
