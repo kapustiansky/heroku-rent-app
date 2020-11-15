@@ -1,0 +1,28 @@
+{
+  "name": "rent",
+  "version": "1.0.0",
+  "description": "mongo, vanillaJS, express, nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "server": "nodemon src/app.js"
+  },
+  "keywords": [
+    "mongo",
+    "vanillaJS",
+    "express",
+    "nodeJS"
+  ],
+  "author": "Kapustiansky Oleg <kapustianskyov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
