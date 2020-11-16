@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(availableRouter);
 app.use(rentRouter);
 
-//app.use(express.static('./'));
+app.use(express.static('./'));
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);

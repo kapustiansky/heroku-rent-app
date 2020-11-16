@@ -7,9 +7,3 @@ mongoose.connect(uri, {
     useFindAndModify: true,
     useUnifiedTopology: true
 })
-
-// async function start() {
-//     try {
-//         await mongoose.connect('mongodb+srv://Oleg:qwerty1234@cluster0.t6xiq.mongodb.net/db?retryWrites=true&w=majority')
-//     }
-// }

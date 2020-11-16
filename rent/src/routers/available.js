@@ -12,8 +12,6 @@ const availableSchema = mongoose.Schema({
     name: {type: String},
     type: {type: String},
     price: {type: Number}
-    //time: {type: String}
-    //unit_Id: {type: String}
 }, {
     versionKey: false
 });
@@ -22,13 +20,11 @@ router.post('/available', async (req, res) => {
     try {
         const available = new Available(req.body)
         await available.save()
-        //res.send()
-        console.log('200')
+
         res.sendStatus(200)
 
             } catch (error) {
                 res.status(500).send(error)
-                console.log('500')
             }
 });
 

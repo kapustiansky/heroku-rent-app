@@ -22,13 +22,10 @@ router.post('/rent', async (req, res) => {
     try {
         const rent = new Rent(req.body)
         await rent.save()
-        //res.send()
-        console.log('200')
         res.sendStatus(200)
 
             } catch (error) {
                 res.status(500).send(error)
-                console.log('500')
             }
 });
 
